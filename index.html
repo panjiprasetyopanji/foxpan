@@ -1,0 +1,405 @@
+<!-- Codingan Standar Dari Bootsrap -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+
+    <!-- AOS SYSTEM -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- STYLE CSS MY CSS -->
+    <style>
+        /* dengan memebrikan section ialah kita membungkus keseluruhan yang ada di dalam section*/
+        
+        section {
+            /* denganmemberikan min-height */
+            min-height: 420px;
+        }
+    </style>
+    <!--Judul LinkWeb  -->
+    <title>FOX PAN</title>
+</head>
+<!-- membuat jarak spasi dengan mt-5 yaitu margin top dengan ukuran 5 -->
+
+<body class="mt-5">
+    <!-- Membuat Navbar Link bagian atas -->
+    <!-- Fixed-top agar tidak pindah dan berdiam saat di scroll -->
+    <!-- navbar-dark dan bg-dark untuk warna menjadi gelap -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <!-- membuat pembungkus bernama container untuk mewadahi isi dari navbar -->
+        <div class="container">
+            <!-- Judul Link Web FOX PAN -->
+            <a class="navbar-brand" href="#">FOX PAN</a>
+            <!-- membuat bagian button burger  pada web jika kondisi  sudah menjadi mobile -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- membuat bagian navbar jika sudah responsive -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#About Us">About</a>
+                    <a class="nav-link" href="#Portofolio">Content</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Jumbotron-fluid  untuk isi konten di bawah navbar -->
+    <div class="jumbotron jumbotron-fluid">
+        <!-- dan kita isi pembungkus kembali dengan nama container yang berisi gambar h1 dan p -->
+        <div class="container text-center">
+            <!-- memberikan isi konten gambar dan mengatur besar width="300" dan agar bulat berikan rounded-circle -->
+            <!-- agar gambar responsive dan standar pada mobile menggunkan % contoh width="25%" -->
+            <!-- dengan menggunakan img-thumbnail  akan  mendapatkan border shadow jika menggunakan bg-dark warna akan berubah -->
+            <!-- Jika kita menambahkan data-aos="fade-in akan mempunyai transisi animasi pada gambar" -->
+            <img src="img/6.jpg" width="25%" class="rounded-circle img-thumbnail bg-primary" />
+            <!-- membuat bagian nama judul pada isi konten -->
+            <h1 h1 class="display-4">FOX PAN</h1>
+            <!-- bagian isi paragraf -->
+            <p class="lead"></p>
+        </div>
+    </div>
+
+    <!-- section#about.about untuk membuat section yang berisi id dan class-->
+    <!-- membuat pembungkus section yang berisi bagian container, row, col -->
+    <section id="about" class="about">
+        <!-- Membuat pembungkus kembali yang mempunya isi konten baris dan kolom -->
+        <!-- Pada container 2 akan ada animasi yaitu  data-aos-offset yang dimana jika kita ke bawah akan muncul animasi -->
+        <!-- data-aos="fade-down" data-aos-offset="500" data-aos-duration="1000" -->
+        <!-- jika kita menggunkan data-aos-duration akan muncul lambat sekitar 1000(1detik) -->
+        <div class="container" id="About Us">
+            <!-- row untuk membuat baris -->
+            <div class="row mb-4">
+                <!-- col membuat colom dan text ketengah -->
+                <div class="col text-center">
+                    <!-- membuat judul about menjadi kecil dengan H2 -->
+                    <h2>ABOUT</h2>
+                </div>
+            </div>
+            <!-- Pada Row kita berikan isi colom 2 dan mempunyai isi nya -->
+            <!-- pada bagian row agar isi konten ke tengah kita bisa berikan justify-content-center jadi keseluruhannya ke tengahkan -->
+            <div class="row justify-content-center">
+                <!-- menambahkan mb-5 untuk memberikan jarakanatara H2 dan -->
+                <!-- membuat bagian kolom pertama agar text ketengah -->
+                <!-- kita memberikan jarak dengan about dan Portofolio menggunkan mb-5 -->
+                <div class="col-md-5 text-left" data-aos="fade-right" data-aos-duration="1000">
+                    <!-- kolom kiri -->
+                    <!-- dan mempunyai isi konten p pertama -->
+                    <p>
+                        Haii Guys selamat datang di Website Official FOX PAN, Web ini berisikan tentang Link game yang kalian dapat akses dan Download. Game berupa MOD atau cheater sehingga kalian dapat memainkan nya dengan mudah dan dengan cepat tamat. Link ini berupa Semawur
+                        cara melakukan download seperti "klik Link yang akan di tuju", lalu tunggu sekitar "10 detik" setelah itu "klik saya bukan robot", lalu "verifikasi gambar". "Pilih gambar yang sesuai / diperintahkan oleh Robot" setelah pilih "klik
+                        Verify", lalu klik "Click here to continue" setelah masuk "Clik here continue nanti kalian akan masuk ke tampilan halaman web baru yaitu bahasateknologi.com, lalu kita "klik kembali" setelah itu "klik Get Link" lalu akan masuk
+                        ke halaman GooglePlaystore, dan kita "Clik kembali" dan masuk ke halaman MediaFire.
+                    </p>
+                </div>
+                <!-- Membuat bagian kolom ke dua dan agar ketengah kita berikan nilai text-center -->
+                <!-- membuat md-5 agar membuat jarak md(medium standar 1024) menjadi kanan kiri 5 kolom -->
+                <div class="col-md-5 text-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                    <!-- menambahkan data-aos="fade-left agar mulai dari kanan dan data-aos-duration=1000 memberikan 1 detik durasi dan data-aos-delay=400=0,4" -->
+                    <!-- membuat bagian isi konten p kedua -->
+                    <p>
+                        Sebelumnya terimakasih untuk teman - teman yang selalu support channel FOX PAN sampai saat ini, disini saya bersyukur mempunyai teman - teman seperti kalian baik dari Indonesia maupun Luar Negeri, di Channel FOX PAN pun menyediakan mabar yaitu Main Bareng
+                        Subscribers pada LIVE. Pada Web ini pun berupa Link game Online, Offline danio juga memiliki genre seperti Adventure, Horror, Arkade, RPG. web ini masih tahap pengembangan semoga untuk kedepan nya web ini bisa lebih baik dan bisa
+                        memeberikan tampilan yang lebih baik dan menarik kembali, jangan lupa juga untuk share Youtube FOX PAN ini ke teman - teman kalian supaya bisa Nongkrong bareng di Channel FOX PAN ini. Yuk tunggu apalagi download gamenya dan mainkan
+                        Langsung auto tamat. Kita akan ketemu kembali di Live, Konten dan Shorts Video selanjutnya Babay.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- membuat pembungkus kembali dan untuk bagian halaman ke tiga card  -->
+    <!-- sebelum kita memberikan margin dan h1 nya kita berikan pembungkus terlebih dahulu dengan nama section -->
+    <!-- dan memberikan bg-light agar abu" -->
+    <section id="content" class="content bg-dark pb-5">
+        <!-- menambahkan jarak agar ada spasi di akhir gambar dengan menggunakan pb-4(padding top) -->
+        <div class="container" id="Portofolio">
+            <!-- membuat isi baris -->
+            <!-- membuat jarak pada bagian portofolio atas dan bawah -->
+            <!-- margin buttom 4 dan padding top 4 -->
+            <div class="row mb-4 pt-4">
+                <!-- membuat kolomdan text ketengah -->
+                <div class="col text-center - text-primary">
+                    <!-- Membuat judul untuk halaman selanjutnya yaitu Portofolio -->
+                    <h2>CONTENT</h2>
+                </div>
+            </div>
+            <!-- membuat bagian row baris -->
+            <!-- membuat baris baru pada kartu agar tidak nempel bisa memberikan pada row -->
+            <div class="row mb-4">
+                <!-- membuat bagian kolom -->
+                <div class="col">
+                    <!-- membuat kartu -->
+                    <div class="card" data-aos="zoom-out" data-aos-duration="1000">
+                        <!-- memasukan gambar -->
+                        <img src="img/7.jpg" class="card-img-top" alt="..." />
+                        <!-- membuat div untuk isi konten pada kartu yang diatas gambar -->
+                        <div class="card-body">
+                            <!-- isi konten berupa kalimat -->
+                            <b><p class="card-text">Android Warnet Life MOD Version 2.6.3</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://cararegistrasi.com/NdX7ugayxJI">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/8.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">Android Pk XD MOD Version 0.57.2</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://cararegistrasi.com/H2QI4X">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/9.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">Android Frag Pro Shooter MOD</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://cararegistrasi.com/gSAhZRpF">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/10.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">Android cara mendapatkan Koin di Hide Online</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://youtu.be/R48usyY6aHk">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center"></div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <div class="card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/11.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">Android Supersus Version 27.22.1 MOD</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://cararegistrasi.com/YJ3gBkAV">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/12.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">The Walking Zombie 2 MOD Version 3.6.16</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://cararegistrasi.com/TtrIBcuKfJS">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/13.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">Android Toca Life World MOD Version 1.42</p></b>
+                            <p>
+                                Link Download :
+                                <a href="https://cararegistrasi.com/KlJK0JgfK">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/14.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <b><p class="card-text">Android Stickman Warriors Heroes MOD</p></b>
+                            <p>
+                                Link Download
+                                <a href="https://cararegistrasi.com/6AAWq">Click Here</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- membuat bagian contact us halaman baru dengan pembungkus sction di dalamnya ada container dan row dan col dan h2-->
+    <!-- pada section ini memiliki class contact -->
+    <section id="contact" class="contact">
+        <!-- pada container berisi row col  dan h2 -->
+        <div class="container" id="Contact">
+            <!-- pada bagian row didalmnya berupa col dan h2 -->
+            <div class="row pt-4 mb-4">
+                <!-- pada bagian row pt padding top dan margin buttom kasih 4 -->
+                <!-- pada col berisi contact us h2 -->
+                <div class="col text-center">
+                    <!-- kita ketengahkan bagian h2 dengan menggunkan text-center membuat judul -->
+                    <h2>SUPPORT</h2>
+                </div>
+            </div>
+            <!-- membuat baris pada isi konten judul contact us -->
+            <!-- kita ketengahkan bagan kiri -->
+            <div class="row justify-content-center">
+                <!-- membuat bagian belah kiri dengan lebar 4 -->
+                <div class="col-lg-4">
+                    <!-- membuat card kembali dengan warna dark -->
+                    <!-- membuat tengah teks dengan text-center -->
+                    <div class="card text-white bg-primary mb-3 text-center">
+                        <!-- tanpa ukuran kita default kan saja sehingga panjang ukurannya -->
+
+                        <div class="card-body">
+                            <!-- judul pada kartu -->
+                            <h5 class="card-title">BERTEMAN MELALUI :</h5>
+                            <!-- isi konten pada kartu -->
+                            <p class="card-text">SOCIAL MEDIA</p>
+                        </div>
+                    </div>
+                    <!-- bagan sebelah kiri -->
+                    <!-- membuat lokasi dengan list group -->
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <h1>Location</h1>
+                        </li>
+                        <li class="list-group-item">My Office</li>
+                        <li class="list-group-item">JAKARTA</li>
+                        <li class="list-group-item">West Java, Indonesia</li>
+                    </ul>
+                </div>
+                <!-- membuat  bagian kanan -->
+                <!-- .col-lg-6  dengan mempunyai jarak 6-->
+                <div class="col-lg-6">
+                    <!-- membuat elemen pada forms grup -->
+                    <form>
+                        <!-- mempunyai kelas grop -->
+                        <div class="form-group">
+                            <!-- label -->
+                            <!-- pada for isi nama supaya pengunjung dapat mengisi nama data, lalu pada  id harus sama isi  nyaseperti for yaitu nama -->
+                            <label for="nama">INSTAGRAM</label>
+                            <input type="text" class="form-control" id="nama" placeholder="PanjiPrasetyo__" />
+                        </div>
+                        <div class="form-group">
+                            <!-- label -->
+                            <!-- pada for isi nama supaya pengunjung dapat mengisi nama data, lalu pada  id harus sama isi  nyaseperti for yaitu nama -->
+                            <label for="email">TIKTOK</label>
+                            <input type="text" class="form-control" id="email" placeholder="@FOXPAN_" />
+                        </div>
+                        <div class="form-group">
+                            <!-- label -->
+                            <!-- pada for isi nama supaya pengunjung dapat mengisi nama data, lalu pada  id harus sama isi  nyaseperti for yaitu nama -->
+                            <label for="no">Youtube</label>
+                            <input type="text" class="form-control" id="no" placeholder="FOX PAN" />
+                        </div>
+                        <div class="form-group">
+                            <!-- label -->
+                            <!-- membuat bagian pesan dan menggunkan textarea agar lebar -->
+                            <label for="pesan">Pesan</label>
+                            <textarea name="pesan" id="pesan" class="form-control" placeholder="Terimakasih untuk semuanya yang selalu dukung FOX PAN"></textarea>
+                        </div>
+                        <!-- membuat tombol -->
+                        <!-- dengan clas foem-grop -->
+                        <div class="form-group">
+                            <!-- membuat button type dan warna -->
+                            <buttom type="button" class="btn btn-dark">Kirim Pesan</buttom>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- membuat footer penutupan dengan warna gelap dan text putih -->
+    <footer class="bg-dark text-white">
+        <!-- membuat pembungkus container didalamnya ada row, col dan p -->
+        <div class="container">
+            <!-- pada row ada col dan p -->
+            <div class="row">
+                <!-- pada col ada p -->
+                <div class="col text-center">
+                    <p>Terimakasih</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <div class="alert alert-danger" role="alert">A simple danger alert—check it out!</div>
+    <button type="button" class="btn btn-warning">Warning</button> -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+
+    <!-- JAVA AOS yang akan memberikan transisi animasi  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Dana jangan lupa memeberikan inisial AOS.init() agar dapat memberikan hubungan pada animasi -->
+    <script>
+        AOS.init();
+        // jika kita ingin tampil serentak dan muncul serentak dan saatdi pindah ada animasi waktu ke  atas sudah tidak ada animasi berikan
+        // AOS.init({
+        // once:true,
+        // duration:200 });
+    </script>
+    <!-- script untuk GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!-- Script Text bergerak CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script>
+        // Registrasi Plugin CDN TEXT
+        gsap.registerPlugin(TextPlugin);
+        // animasi pada gambar jumbotron GSAP
+        // pada text lead akan mempunyai pergerkan text berjalan
+        gsap.to(".lead", {
+            duration: 1.5,
+            delay: 1,
+            text: "Selamat Datang | di Website FOX PAN",
+        });
+        gsap.from(".jumbotron img", {
+            // durasi
+            duration: 1,
+            // dari vertikal
+            y: -100,
+            // opacity 0
+            opacity: 0,
+            // type animasi
+            ease: "bounce",
+        });
+
+        gsap.form(".jumbotron .h1 .display-4", {
+            duration: 1,
+            x: -50,
+            opacity: 0,
+            delay: 0.5,
+            // ease: "bounce",
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
